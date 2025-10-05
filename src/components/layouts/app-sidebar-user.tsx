@@ -139,7 +139,7 @@ export function AppSidebarUserInner(props: {
             <DropdownMenuItem
               onClick={() => {
                 window.open(
-                  "https://github.com/cgoinglove/better-chatbot/issues/new",
+                  "https://github.com/cgoinglove/neogen-mcp/issues/new",
                   "_blank",
                 );
               }}

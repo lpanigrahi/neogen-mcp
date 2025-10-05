@@ -1,7 +1,7 @@
 # Vercel Deployment Guide
 
 1. **Click this button** to start the deployment process:
-   [![Deploy with Vercel](https://vercel.com/button)](<https://vercel.com/new/clone?repository-url=https://github.com/cgoinglove/better-chatbot&env=BETTER_AUTH_SECRET&env=OPENAI_API_KEY&env=GOOGLE_GENERATIVE_AI_API_KEY&env=ANTHROPIC_API_KEY&envDescription=BETTER_AUTH_SECRET+is+required+(enter+any+secret+value).+At+least+one+LLM+provider+API+key+(OpenAI,+Claude,+or+Google)+is+required,+but+you+can+add+all+of+them.+See+the+link+below+for+details.&envLink=https://github.com/cgoinglove/better-chatbot/blob/main/.env.example&demo-title=better-chatbot&demo-description=An+Open-Source+Chatbot+Template+Built+With+Next.js+and+the+AI+SDK+by+Vercel.&products=[{"type":"integration","protocol":"storage","productSlug":"neon","integrationSlug":"neon"},{"type":"integration","protocol":"storage","productSlug":"upstash-kv","integrationSlug":"upstash"},{"type":"blob"}]>)
+   [![Deploy with Vercel](https://vercel.com/button)](<https://vercel.com/new/clone?repository-url=https://github.com/cgoinglove/neogen-mcp&env=BETTER_AUTH_SECRET&env=OPENAI_API_KEY&env=GOOGLE_GENERATIVE_AI_API_KEY&env=ANTHROPIC_API_KEY&envDescription=BETTER_AUTH_SECRET+is+required+(enter+any+secret+value).+At+least+one+LLM+provider+API+key+(OpenAI,+Claude,+or+Google)+is+required,+but+you+can+add+all+of+them.+See+the+link+below+for+details.&envLink=https://github.com/cgoinglove/neogen-mcp/blob/main/.env.example&demo-title=neogen-mcp&demo-description=An+Open-Source+Chatbot+Template+Built+With+Next.js+and+the+AI+SDK+by+Vercel.&products=[{"type":"integration","protocol":"storage","productSlug":"neon","integrationSlug":"neon"},{"type":"integration","protocol":"storage","productSlug":"upstash-kv","integrationSlug":"upstash"},{"type":"blob"}]>)
 
 2. **Click the "Create" button** on Vercel to begin setting up your project.
 
@@ -25,7 +25,7 @@
 6. **Enter LLM Provider API Keys in Project Settings.**
    After deployment, go to your project's **Settings > Environments** tab. Here, enter the API keys for the LLM providers you wish to use. You only need to enter the keys for the providers you actually plan to use—other fields can be left blank or filled with dummy values.
 
-   - Example environment file: [example.env](https://github.com/cgoinglove/better-chatbot/blob/main/.env.example)
+   - Example environment file: [example.env](https://github.com/cgoinglove/neogen-mcp/blob/main/.env.example)
 
    <img width="1712" alt="step6" src="https://github.com/user-attachments/assets/2d197389-a865-46ac-9156-40cad64258ca" />
 
